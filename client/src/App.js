@@ -39,11 +39,11 @@ function App() {
           element={<Signup />}
           />
             <Route
-          path="/profile"
+          path="/profile/:username?"
           element={<Profile />}
           />
            <Route
-          path="/thought"
+          path="/thought/:id"
           element={<SingleThought />}
           />
           <Route
